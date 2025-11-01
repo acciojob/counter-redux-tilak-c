@@ -1,13 +1,14 @@
-
+// src/components/App.js
 import React from "react";
-import './../styles/App.css';
+import CounterButton from "./Counter/CounterButton";
 
-const App = () => {
+function App() {
   return (
     <div>
-        {/* Do not remove the main div */}
+      <h1 style={{ textAlign: "center" }}>Redux Counter App</h1>
+      <CounterButton />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
